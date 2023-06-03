@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="center"
+                android:contentDescription="Company Logo"
+                android:padding="16dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/logo" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="About Us"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/company_descriptipm"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:contentDescription="Company Logo"
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/man" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+
+                    <TextView
+                        android:id="@+id/ashish_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ashish Patel"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ashish_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ashish_msg"
+                        android:textSize="16sp" />
+                    <ImageButton
+                        android:id="@+id/ashish_email"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="270dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="0dp"
+                        android:src="@drawable/email" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:contentDescription="Director"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/man" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+
+                    <TextView
+                        android:id="@+id/director_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Anjali Upadhyay"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/Director_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/anjali_msg"
+                        android:textSize="16sp" />
+
+                    <ImageButton
+                        android:id="@+id/anjali_email"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="270dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="0dp"
+                        android:src="@drawable/email" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:contentDescription="Director"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/man" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+
+                    <TextView
+                        android:id="@+id/sarika_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sarika Kumari"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/sarika_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sarika_msg"
+                        android:textSize="16sp" />
+
+
+                    <ImageButton
+                        android:id="@+id/sarika_email"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="270dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="0dp"
+                        android:src="@drawable/email" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+
+                    <TextView
+                        android:id="@+id/Contact_us"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact Us"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/phone_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phone No: 7677816141 \nEmail: ashishpatel3009@gmail.com"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

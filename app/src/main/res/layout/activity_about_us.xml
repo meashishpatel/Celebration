@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/help" />
+
+    <ImageButton
+        android:id="@+id/email"
+        android:layout_width="185dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="95dp"
+        android:src="@drawable/email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:layout_width="185dp"
+        android:layout_height="52dp"
+        android:id="@+id/call"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="68dp"
+        android:src="@drawable/call"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.389"
+        app:layout_constraintStart_toEndOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="203dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <TextView
+            android:id="@+id/Contact_us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone No: 7677816141 \nEmail: ashishpatel3009@gmail.com \nAddress:  Sir Padampat Singhania University, Udaipur, Rajasthan,India"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/develop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\nDeveloped by: Ashish Patel" />
+
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:text="https://meashishpatel.github.io/cv/" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

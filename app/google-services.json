@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "876481956124",
+    "project_id": "celebration-f4d0f",
+    "storage_bucket": "celebration-f4d0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876481956124:android:fab8dc189fa9070a1352d9",
+        "android_client_info": {
+          "package_name": "com.example.celebration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876481956124-rfu4016htoa8fdkkbesmct42m3astekt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4q_kqb8rfPUPUJ8D7PVQBT2ntGc8MW7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876481956124-rfu4016htoa8fdkkbesmct42m3astekt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
