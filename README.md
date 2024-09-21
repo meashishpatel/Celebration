@@ -25,5 +25,6 @@ To test the app download the app via given link or scanning the given QR.
 
 [https://drive.google.com/file/d/1JsEe_PHhHHQ-q_EUh6YCjgnJ7nhwoOIL/view?usp=share_link](https://drive.google.com/file/d/1KbeXkU81vK_lhMIpHmHogXzenXXz_47n/view?usp=sharing)
 
-![Celebration](https://github.com/user-attachments/assets/b0d898d3-68f1-4281-a5c0-f90ad5676fbf)
+![Celebration](https://github.com/user-attachments/assets/0c5837cc-6ff7-4a98-a4cd-829d81998def)
+
 
