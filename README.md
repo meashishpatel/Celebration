@@ -23,9 +23,10 @@ Paste them in the convo.java file
 
 To test the app download the app via given link or scanning the given QR.
 
-https://file.io/9bYzoiO1uAs0
+[https://file.io/9bYzoiO1uAs0](https://file.io/24tKrGII7hGE)
 
-![Celebration](https://github.com/user-attachments/assets/55ae7f1d-716f-465a-a683-a196ffda55b9)
+![Screenshot 2024-09-22 003705](https://github.com/user-attachments/assets/754f2c51-dc55-4abd-b231-0d15bc40446e)
+
 
 
 
